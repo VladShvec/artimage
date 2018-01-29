@@ -63,12 +63,18 @@ nav a
     padding: 0px 13px 0px 13px; 
     background-color: grey;
     height: 27px;
-    width: 140px;
+    width: 170px;
     font-weight: 700;
+    text-align: center;
 }
 nav a:hover
 {
      background-color: #99ff00;
 }
-
+@media screen and (max-width: 1030px)
+{
+    nav a 
+    {
+       font-size: 22px; 
+}
 
