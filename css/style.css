@@ -39,3 +39,36 @@ header
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+.logo
+{
+    float: left;
+}
+nav
+{
+    float: right;
+   
+}
+nav li
+{
+    display: inline-block;
+    float: left;
+    padding:75px  13px 0px;    
+    color: grey;
+}
+nav a
+{
+    display: block;
+    color: black;
+    padding: 0px 13px 0px 13px; 
+    background-color: grey;
+    height: 27px;
+    width: 140px;
+    font-weight: 700;
+}
+nav a:hover
+{
+     background-color: #99ff00;
+}
+
+
