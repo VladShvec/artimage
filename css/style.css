@@ -72,6 +72,12 @@ nav a:hover
 {
      background-color: #99ff00;
 }
+nav:after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
 main
 {
     
@@ -120,4 +126,11 @@ p
 .menu
 {
     float: left;
+    padding-right: 57px;
+}
+div:after
+{
+    content: '';    
+    clear: both;
+    display: block;
 }
