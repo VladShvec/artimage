@@ -24,13 +24,13 @@ body,html
 }
 header
 {
-    position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
     height: 123px;
     z-index:2;
-    padding-bottom: 150px;
+    padding-bottom:50px;
     
 }
 .in
@@ -74,22 +74,50 @@ nav a:hover
 }
 main
 {
-    position: absolute;
+    
     height: 100%;
     width: 100%;
 }
-.ponap
+.ponap , .poc
 {
 
  display: block;
  height: 27px;
- width: 160px;  
- color: #99ff00; 
+ width: 180px;   
+ background-color: #99ff00;
+ text-align: center;
+ color: #000;   
     
+}
+.poc
+{
+ background-color: grey;
 }
 header:after
 {
     content: '';    
     clear: both;
     display: block;
+}
+main ul a
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: normal;
+}
+main ul a:hover
+{
+    color:  #99ff00;
+}
+p
+{
+    color: #fff;
+}
+.right
+{
+    float: right;
+}
+.menu
+{
+    float: left;
 }
