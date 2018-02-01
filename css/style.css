@@ -131,3 +131,13 @@ div:after
     clear: both;
     display: block;
 }
+.level2
+{
+    padding-left: 30px;
+    padding-bottom: 17px;
+    line-height: 1.5;
+}
+.level3
+{
+    line-height: 1.5;
+}
