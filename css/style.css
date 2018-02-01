@@ -108,6 +108,10 @@ main ul a:hover
 {
     color:  #99ff00;
 }
+main ul .ponap:hover
+{
+    color:  #000;
+}
 p
 {
     color: #fff;
@@ -119,15 +123,11 @@ p
 .menu
 {
     float: left;
-    padding-right: 57px;
+    padding-right: 30px;
 }
 div:after
 {
     content: '';    
     clear: both;
     display: block;
-}
-.logo
-{
-   
 }
