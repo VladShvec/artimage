@@ -4,30 +4,29 @@ body,html
     height: 100%;
     width: 100%;
     font-family: "Arial" ;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 130%;
     position: relative;
+    background-color: #000;
 }
 .wrapper
 {
 
     position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
+    width: 1000px;
     box-sizing: border-box;
     padding-bottom: 300px;
     min-height: 100%;
-    background-color: #000;
+    margin: 0 auto;
     color: #000;
-
+    
 }
 header
 {
-    
+    padding-top: 36px;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 1000px;
     height: 123px;
     z-index:2;
     padding-bottom:50px;
@@ -35,7 +34,6 @@ header
 }
 .in
 {
-    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -48,13 +46,13 @@ header
 nav
 {
     float: right;
-   
+    padding-top: 40px;
 }
 nav li
 {
     display: inline-block;
     float: left;
-    padding:75px  13px 0px;    
+    padding:0px  10px 0px;    
     color: grey;
 }
 nav a
@@ -63,20 +61,15 @@ nav a
     color: black;
     padding: 0px 13px 0px 13px; 
     background-color: grey;
-    height: 27px;
-    width: 160px;
+    height: 15px;
+    width: 110px;
     font-weight: 700;
     text-align: center;
+    font-size: 11.12px;
 }
 nav a:hover
 {
      background-color: #99ff00;
-}
-nav:after
-{
-    content: '';
-    clear: both;
-    display: block;
 }
 main
 {
@@ -88,8 +81,8 @@ main
 {
 
  display: block;
- height: 27px;
- width: 180px;   
+ height: 15px;
+ width: 110px;   
  background-color: #99ff00;
  text-align: center;
  color: #000;   
@@ -108,7 +101,7 @@ header:after
 main ul a
 {
     color: #fff;
-    font-size: 16px;
+    font-size: 11.12px;
     line-height: normal;
 }
 main ul a:hover
@@ -133,4 +126,8 @@ div:after
     content: '';    
     clear: both;
     display: block;
+}
+.logo
+{
+   
 }
