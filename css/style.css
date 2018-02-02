@@ -8,6 +8,7 @@ body,html
     line-height: 130%;
     position: relative;
     background-color: #000;
+    
 }
 .wrapper
 {
@@ -18,16 +19,20 @@ body,html
     padding-bottom: 300px;
     min-height: 100%;
     margin: 0 auto;
-    color: #000;
-    
+
+  /*background-image: url(../image/portfolio.jpg);
+      
+    background-repeat: no-repeat;
+background-position: top center ;
+*/
 }
 header
 {
-    padding-top: 36px;
+    padding-top: 35px;
     top: 0;
     left: 0;
     width: 1000px;
-    height: 123px;
+    height: 92px;
     z-index:2;
    
     
@@ -42,6 +47,7 @@ header
 .logo
 {
     float: left;
+    padding-left: 58px;
 }
 nav
 {
@@ -52,16 +58,17 @@ nav li
 {
     display: inline-block;
     float: left;
-    padding:0px  10px 0px;    
+    padding: 0px 27px 0px 3px;   
     color: grey;
+    
 }
 nav a
 {
     display: block;
     color: black;
-    padding: 0px 13px 0px 13px; 
+    padding: 0px 0px 0px 0px; 
     background-color: grey;
-    height: 15px;
+    height: 14px;
     width: 110px;
     font-weight: 700;
     text-align: center;
@@ -82,7 +89,7 @@ main
 
  display: block;
  height: 15px;
- width: 110px;   
+ width: 121px;   
  background-color: #99ff00;
  text-align: center;
  color: #000;   
@@ -118,13 +125,19 @@ p
 }
 .right
 {
+    
     float: right;
+    margin-top: -8px;
+    font-size: 11.12px;
+    line-height: 1.2;
+    padding-right: 32px;
 }
 .menu
 {
     float: left;
-    padding-right: 70px;
-    padding-top: 40px;
+    padding-right: 100px;
+    padding-top: 39px;
+    padding-left: 40px;
 }
 div:after
 {
@@ -134,13 +147,13 @@ div:after
 }
 .level2
 {
-    padding-left: 20px;
-    padding-bottom: 17px;
-    line-height: 1.5;
+    padding-left: 27px;
+    padding-bottom: 0px;
+    line-height: 1.2;
 }
 .level3
 {
-    line-height: 1.5;
+    line-height: 1.3;
      padding-left: 13px;
 }
 .img
@@ -154,16 +167,22 @@ footer
 }
 .text
 {
-    padding-left: 186px;
+    padding-left: 265px;
     display: inline-block;
+    padding-top: 4px;
 }
 .preview_img
 {
     float: right;
-    padding-right: 385px;
+      padding-right: 319px;
+   
     
 }
 .preview_img img
 {
-  padding: 0px 7px 0px 0px;
+  padding: 4px 5px 0px 0px;
+}
+.level3
+{
+    padding-top: 70px;
 }
