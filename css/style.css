@@ -142,3 +142,27 @@ div:after
     line-height: 1.5;
      padding-left: 13px;
 }
+.img
+{
+    margin-bottom: 20px;
+}
+footer
+{
+    width: 1000px;
+    height: 72px;
+}
+.text
+{
+    padding-left: 186px;
+    display: inline-block;
+}
+.preview_img
+{
+    float: right;
+    padding-right: 385px;
+    
+}
+.preview_img img
+{
+  padding: 0px 7px 0px 0px;
+}
