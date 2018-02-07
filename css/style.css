@@ -20,10 +20,10 @@ body,html
     min-height: 100%;
     margin: 0 auto;
 
- background-image: url(../image/portfolio.jpg);
+ /*background-image: url(../image/portfolio.jpg);
       
     background-repeat: no-repeat;
-background-position: top center ;
+background-position: top center ;*/
 
 }
 header
@@ -151,13 +151,18 @@ div:after
     padding-left:0px;
     padding-top 3px;
     line-height: 153%;
+    color: #fff;
 }
 .level3
 {
     line-height: 1.3;
     padding-left: 13px;
     padding-top: 4px;
- 
+    color: #999;
+}
+.level1
+{
+    color: #fff;
 }
 .img
 {
