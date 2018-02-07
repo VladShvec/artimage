@@ -20,10 +20,10 @@ body,html
     min-height: 100%;
     margin: 0 auto;
 
-background-image: url(../image/portfolio.jpg);
+/*background-image: url(../image/portfolio.jpg);
       
     background-repeat: no-repeat;
-background-position: top center ;
+background-position: top center ;*/
 }
 
 header
@@ -95,12 +95,16 @@ main
  color: #000;   
     
 }
+
 .level2 a:hover
 {
 
      background-color: #99ff00;
-     text-align: center;
-     color: #000;  
+     
+     color: #000; 
+    
+
+   
 }
 .poc
 {
@@ -120,8 +124,9 @@ aside ul a
 }
 .level3 a:hover
 {
-    color :  #99ff00;
+    color: #99ff00;
     background-color: #000;
+
     
 }
 aside ul .ponap:hover
@@ -201,6 +206,7 @@ footer
 .pd
 {
     padding-left: 16px;
+   
 
     
 }
