@@ -20,10 +20,10 @@ body,html
     min-height: 100%;
     margin: 0 auto;
 
- /*background-image: url(../image/portfolio.jpg);
+ background-image: url(../image/portfolio.jpg);
       
     background-repeat: no-repeat;
-background-position: top center ;*/
+background-position: top center ;
 
 }
 header
@@ -108,7 +108,7 @@ header:after
 }
 aside ul a
 {
-    color: #999;
+    color: #fff;
     font-size: 11.12px;
     line-height: normal;
 }
@@ -159,10 +159,7 @@ div:after
     padding-left: 13px;
     padding-top: 4px;
     color: #999;
-}
-.level1
-{
-    color: #fff;
+    padding-bottom: 19px;
 }
 .img
 {
@@ -198,4 +195,8 @@ footer
     padding-left: 16px;
 
     
+}
+.level3 li a
+{
+    color: #999;
 }
