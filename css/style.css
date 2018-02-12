@@ -90,10 +90,14 @@ main
  display: block;
  height: 15px;
  width: 121px;   
- background-color: #99ff00;
+ background-color: #999;
  text-align: center;
  color: #000;   
     
+}
+.ponap:hover
+{
+    background-color: #99ff00;
 }
 
 .level2 a:hover
@@ -227,4 +231,8 @@ footer
 .level2 , .level3
 {
     display: none;
+}
+.level1 > li:hover .level2 , .level3
+{
+    display: block;
 }
