@@ -82,7 +82,8 @@ main
 {
     
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
+    margin-left: 286px;
 }
 .ponap , .poc
 {
@@ -146,12 +147,14 @@ p
     line-height: 1.2;
     padding-right: 49px;
 }
-.menu
+.left_col
 {
     float: left;
-    padding-right: 100px;
+    /*padding-right: 100px;*/
     padding-top: 39px;
     padding-left: 40px;
+    width: 200px;
+    
 }
 div:after
 {
@@ -178,7 +181,7 @@ div:after
 {
     margin-bottom: 20px;
     
-    padding-left: 285px;
+    /*padding-left: 285px;*/
 }
 footer
 {
@@ -194,7 +197,7 @@ footer
 .preview_img
 {
     float: right;
-      padding-right: 319px;
+    padding-right: 319px;
    
     
 }
@@ -206,7 +209,16 @@ footer
 .pd
 {
     padding-left: 16px;
-   
+    display: inline-block;
+
+    
+}
+.pd:hover
+{
+    padding-left: 16px;
+    display: inline-block;
+    height: 14px;
+    width: 105px;
 
     
 }
