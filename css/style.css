@@ -82,7 +82,6 @@ main
 {
     
     height: 100%;
-    /*width: 100%;*/
     margin-left: 286px;
 }
 .ponap , .poc
@@ -208,21 +207,24 @@ footer
 
 .pd
 {
-    padding-left: 16px;
+   
+      padding-left: 16px;
     display: inline-block;
-
+    height: 14px;
+    width: 105px;
     
 }
 .pd:hover
 {
-    padding-left: 16px;
-    display: inline-block;
-    height: 14px;
-    width: 105px;
+  
 
     
 }
 .level3 li a
 {
     color: #999;
+}
+.level2 , .level3
+{
+    display: none;
 }
