@@ -232,7 +232,11 @@ footer
 {
     display: none;
 }
-.level1 > li:hover .level2 , .level3
+.level1 > li:hover .level2 
+{
+    display: block;
+}
+.level2 > li:hover .level3
 {
     display: block;
 }
